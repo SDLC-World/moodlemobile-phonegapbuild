@@ -2307,6 +2307,8 @@ html {
  * Remove default margin.
  */
 body {
+  direction: rtl;
+  text-align: right;
   margin: 0;
   line-height: 1; }
 
@@ -3422,6 +3424,7 @@ a.subdued {
     background: none; }
 
 .bar-header {
+  background-color: #8c8c8c;
   top: 0;
   border-top-width: 0;
   border-bottom-width: 1px; }
@@ -3601,7 +3604,7 @@ a.subdued {
     color: #444; }
 
 .tabs-striped .tabs {
-  background-color: white;
+  background-color: #8c8c8c;
   background-image: none;
   border: none;
   border-bottom: 1px solid #ddd;
