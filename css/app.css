@@ -3437,6 +3437,7 @@ a.subdued {
     background: none; }
 
 .bar-header {
+  background-color: #8c8c8c;
   top: 0;
   border-top-width: 0;
   border-bottom-width: 1px; }
@@ -7709,7 +7710,7 @@ em {
       background: none; }
 
 .bar-side-menu {
-  border-color: transparent;
+  border-color: #8c8c8c;
   background-color: #f70;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff;
