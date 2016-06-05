@@ -2318,6 +2318,7 @@ html {
  * Remove default margin.
  */
 body {
+  direction: rtl;
   margin: 0;
   line-height: 1; }
 
@@ -3052,7 +3053,7 @@ a.subdued {
   border-style: solid;
   border-top: 1px solid transparent;
   border-bottom: 1px solid #ddd;
-  background-color: white;
+  background-color: #8c8c8c;
   /* border-width: 1px will actually create 2 device pixels on retina */
   /* this nifty trick sets an actual 1px border on hi-res displays */
   background-size: 0; }
