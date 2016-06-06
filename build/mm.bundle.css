@@ -2597,6 +2597,7 @@ body.grade-b, body.grade-c {
  * scroll view functionality.
  */
 .scroll {
+	background-color: #d0d0d0;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -3223,7 +3224,7 @@ a.subdued {
   .bar .title + .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
     position: absolute;
     top: 5px;
-    right: 5px;
+    left: 5px;
     bottom: 5px; }
 
 .platform-android .nav-bar-has-subheader .bar {
@@ -6539,9 +6540,9 @@ progress {
  * --------------------------------------------------
  */
 .button {
-  border-color: #387ef5;
+  border-color: #000;
   background-color: transparent;
-  color: #387ef5;
+  color: #000;
   position: relative;
   display: inline-block;
   margin: 0;
@@ -7720,7 +7721,7 @@ em {
  */
 .bar-content {
   border-color: transparent;
-  background-color: #f70;
+  background-color: #8c8c8c;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff; }
   .bar-content .title {
@@ -8145,7 +8146,7 @@ mm-timer.mm-timer.mm-timer-timeleft-15 {
 
 .bar-side-menu {
   border-color: transparent;
-  background-color: #f70;
+  background-color: #8c8c8c;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff;
   height: 80px !important; }
